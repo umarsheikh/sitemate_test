@@ -1,10 +1,12 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 
 const app = express();
 const port = 3001;
 
 app.use(bodyParser.json());
+app.use(cors());
 
 let issues = [
   { id: 1, name: 'Item 1', description: 'Description for Item 1' },

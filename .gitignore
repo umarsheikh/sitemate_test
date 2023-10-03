@@ -19,3 +19,32 @@ issues_server/node_modules/
 .DS_Store
 Thumbs.db
 
+# Ignore React build artifacts within the "issues_client" subfolder
+/issues_client/build/
+/issues_client/dist/
+/issues_client/node_modules/
+/issues_client/.cache/
+
+# Ignore environment-specific files within the "issues_client" subfolder
+/issues_client/.env.local
+/issues_client/.env.development
+/issues_client/.env.test
+/issues_client/.env.production
+
+# Ignore npm logs within the "issues_client" subfolder
+/issues_client/npm-debug.log*
+/issues_client/yarn-debug.log*
+/issues_client/yarn-error.log*
+
+# Ignore editor files within the "issues_client" subfolder
+/issues_client/.vscode/
+/issues_client/.idea/
+
+# Ignore compiled source within the "issues_client" subfolder
+/issues_client/*.map
+/issues_client/*.min.js
+
+# Ignore OS-generated files within the "issues_client" subfolder
+/issues_client/.DS_Store
+/issues_client/Thumbs.db
+
